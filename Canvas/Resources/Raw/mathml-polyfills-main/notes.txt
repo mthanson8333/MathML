@@ -1,0 +1,123 @@
+function getEmbellishedOperator (contained rename)
+•	accent.js
+•	linebreaking.js
+
+customElements.define (contained rename)
+•	elemMath.js
+•	linebreaking.js
+
+const transformMedium (contained rename)
+•	mathSize.js
+•	linethickness.js
+
+const namespaceURI (contained rename)
+•	mfenced.js
+•	mtable.js
+
+function collapseWhiteSpace (contained rename)
+•	mfenced.js
+•	ms.js
+
+Initialize acid-test.html
+•	all-polyfills.js
+•	math-transform.js
+•	mglyphs.js
+•	mfenced.js
+•	bevelled.js
+•	accent.js
+•	horiz-align.js
+•	mathsize.js
+•	menclose.js
+•	linethickness.js
+•	ms.js
+•	mpadded.js
+•	mtable.js
+•	elemMath.js
+•	linebreaking.js
+
+Export
+•	all-polyfills.js
+•	•	export { _MathTransforms } from './common/math-transforms.js'
+
+•	math-poly-core.js 
+•	•	export const poly
+
+•	math-transforms.js
+•	•	export const MATHML_NS
+•	•	export const _MathTransforms
+•	•	export function cloneElementWithShadowRoot
+•	•	export function convertToPx
+
+Import
+•	acid-text.html
+•	•	import { _MathTransforms } from './all-polyfills.js'
+
+•	all-polyfills.js
+•	•	import './mglyph/mglyph.js'
+•	•	import './mfenced/mfenced.js'
+•	•	import './bevelled/bevelled.js'
+•	•	import './accent/accent.js'
+•	•	import './horiz-align/horiz-align.js'
+•	•	import './mathsize/mathsize.js'
+•	•	import './menclose/menclose.js'
+•	•	import './linethickness/linethickness.js'
+•	•	import './ms/ms.js'
+•	•	import './mpadded/mpadded.js'
+•	•	import './mtable/mtable.js'
+•	•	import './elem-math/elemMath.js'
+•	•	import './linebreaking/linebreaking.js'
+
+•	accent.js
+•	•	import { _MathTransforms } from '../common/math-transforms.js'
+
+•	bevelled.js
+•	•	import { _MathTransforms, convertToPx, MATHML_NS } from '../common/math-transforms.js'
+
+•	elemMath.js
+•	•	import { _MathTransforms, MATHML_NS } from '../common/math-transforms.js'
+
+•	index.html from elem-math
+•	•	import { _MathTransforms } from '../common/math-transforms.js'
+•	•	import './elemMath.js'
+•	•	import '../menclose/menclose.js'
+
+•	horiz-allign.js
+•	•	import { _MathTransforms, MATHML_NS } from '../common/math-transforms.js'
+
+•	linebreaking.js
+•	•	import { _MathTransforms, cloneElementWithShadowRoot, convertToPx, MATHML_NS } from '../common/math-transforms.js'
+
+•	linethickness.js
+•	•	import { _MathTransforms } from '../common/math-transforms.js'
+
+•	mathsize.js
+•	•	import { _MathTransforms } from '../common/math-transforms.js'
+
+•	index.html from menclose
+•	•	import { _MathTransforms } from '../common/math-transforms.js'
+•	•	import './menclose.js'
+
+•	menclose.js
+•	•	import { _MathTransforms, cloneElementWithShadowRoot, convertToPx, MATHML_NS } from '../common/math-transforms.js'
+
+•	index.html from mfenced
+•	•	import { _MathTransforms } from '../common/math-transforms.js'
+•	•	import './mfenced.js'
+
+•	mfenced.js
+•	•	import { _MathTransforms, cloneElementWithShadowRoot } from '../common/math-transforms.js'
+
+•	mglyph.js
+•	•	import { _MathTransforms, convertToPx, MATHML_NS } from '../common/math-transforms.js'
+
+•	mpadded.js
+•	•	import { _MathTransforms, cloneElementWithShadowRoot, MATHML_NS } from '../common/math-transforms.js'
+
+•	ms.js
+•	•	import { _MathTransforms, MATHML_NS } from '../common/math-transforms.js'
+
+•	mtable.js
+•	•	import { _MathTransforms, cloneElementWithShadowRoot } from '../common/math-transforms.js'
+
+Import/Export
+•	all-polyfills.js
